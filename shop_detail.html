@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aytor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+    <!-- CSS ONLY -->
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/venobox.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+  <!--NAV STARTS HERE-->
+  <nav class="navbar navbar-expand-lg">
+      <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./image/Logo.png" alt="">
+      </a>
+
+
+  <!--SMALL DEVICE MENU-->
+      <button class="togglerButton d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#smallMenu" aria-controls="offcanvasExample">
+        <i class="fa-solid fa-align-left"></i>
+      </button>
+      
+      <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="smallMenu" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="./image/Logo.png" alt="" class="offCanvasLogo"></h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-0">
+         <ul class="small_menu">
+            <li>
+              <a href="#">Home <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+            <li>
+              <a href="#">Shop <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+            <li>
+              <a href="#">Pages <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+            <li>
+              <a href="#">Features <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+            <li>
+              <a href="#">Blogs <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+            <li>
+              <a href="#">Contact <span><i class="fa-sharp fa-solid fa-angle-down"></i></span></a>
+            </li>
+        </ul>
+        <div class="iconPanal">
+          <ul>
+           <li>
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+           </li>
+           <li>
+               <a href="#"><i class="fa-regular fa-user"></i></a>
+           </li>
+           <li>
+               <a href="#"><i class="fa-regular fa-heart"></i></a>
+           </li>
+           <li>
+               <a href="#"><img src="./image/Group.svg" alt="">
+                   <span class="overlay">0</span>
+               </a>
+   
+               
+           </li>
+          </ul>
+   
+         </div>
+         
+        </div>
+      </div>
+      
+  <!--SMALL DEVICE MENU ENDS-->
+
+      <div class="collapse navbar-collapse" id="myCustomNav">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+          </li>
+          <!--<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>-->
+         
+        </ul>
+        
+      </div>
+      <div class="iconPanal d-none d-lg-block">
+       <ul>
+        <li>
+           <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </li>
+        <li>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+        </li>
+        <li>
+            <a href="#"><img src="./image/Group.svg" alt="">
+                <span class="overlay">0</span>
+            </a>
+
+            
+        </li>
+       </ul>
+
+      </div>
+      </div>
+  </nav>
+  <!--NAV ENDS HERE-->
+  <!--MAIN STARTS HERE-->
+  <main>
+<section id="shop_detail">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="top_img_slider">
+                    <div class="img_card">
+                        <img src="./image/product_detail1.png" alt="">
+                    </div>
+                    <div class="img_card">
+                        <img src="./image/product_detail2.png" alt="">
+                    </div>
+                    <div class="img_card">
+                        <img src="./image/product_detail3.png" alt="">
+                    </div>
+                    <div class="img_card">
+                        <img src="./image/product_detail4.png" alt="">
+                    </div>
+                    <div class="img_card">
+                        <img src="./image/product_detail5.png" alt="">
+                    </div>
+                    <div class="img_card">
+                      <img src="./image/product_detail1.png" alt="">
+                  </div>
+                  <div class="img_card">
+                      <img src="./image/product_detail2.png" alt="">
+                  </div>
+                  <div class="img_card">
+                      <img src="./image/product_detail3.png" alt="">
+                  </div>
+                  <div class="img_card">
+                      <img src="./image/product_detail4.png" alt="">
+                  </div>
+                  <div class="img_card">
+                      <img src="./image/product_detail5.png" alt="">
+                  </div>
+                </div>
+                <div class="bottom_img_slider">
+                  <div class="img_card">
+                    <img src="./image/product_detail1.png" alt="">
+                </div>
+                <div class="img_card">
+                    <img src="./image/product_detail2.png" alt="">
+                </div>
+                <div class="img_card">
+                    <img src="./image/product_detail3.png" alt="">
+                </div>
+                <div class="img_card">
+                    <img src="./image/product_detail4.png" alt="">
+                </div>
+                <div class="img_card">
+                    <img src="./image/product_detail5.png" alt="">
+                </div>  
+                <div class="img_card">
+                  <img src="./image/product_detail1.png" alt="">
+              </div>
+              <div class="img_card">
+                  <img src="./image/product_detail2.png" alt="">
+              </div>
+              <div class="img_card">
+                  <img src="./image/product_detail3.png" alt="">
+              </div>
+              <div class="img_card">
+                  <img src="./image/product_detail4.png" alt="">
+              </div>
+              <div class="img_card">
+                  <img src="./image/product_detail5.png" alt="">
+              </div>  
+              </div>
+                
+            </div>
+            <div class="col-lg-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi praesentium quidem similique qui minus facilis molestiae aliquid facere, et vitae suscipit sequi nesciunt consequatur vel beatae ea voluptatem reprehenderit officiis provident commodi quod. Libero impedit perspiciatis nemo maxime architecto culpa veniam inventore repellat expedita voluptatibus possimus quasi magni enim repellendus laborum eligendi quis, nobis excepturi suscipit amet accusantium. Voluptas dolor tempore ab necessitatibus, velit aut reiciendis vitae minima consectetur eveniet ea iusto quasi cupiditate mollitia, fugiat quia! Doloremque error excepturi fugiat soluta est. Error nisi quos, labore autem voluptates fuga voluptatem adipisci voluptas dicta modi exercitationem doloremque nemo animi iusto commodi. At quae perferendis possimus reiciendis explicabo nostrum culpa voluptatibus ab quis consequuntur nam tenetur reprehenderit temporibus quia eos obcaecati similique, porro molestiae repudiandae consectetur, beatae corporis voluptas hic nobis! Nulla id adipisci ullam saepe pariatur veritatis laudantium aut illo, amet nemo quidem dignissimos veniam voluptatibus asperiores harum? Adipisci fugiat quidem, consequatur ipsam iure praesentium harum sed, repellat assumenda ex, similique voluptate libero omnis consequuntur a. Temporibus asperiores harum sed nesciunt facere inventore 
+            </div>
+        </div>
+    </div>
+</section>         
+
+  </main> 
+  <!--MAIN STARTS HERE-->
+  
+  <script src="./js/jquery-3.6.1.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/jquery.countdown.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/venobox.min.js"></script>
+  <script src="./js/app.js"></script>  
+  </body>
+  </html>  

@@ -1,0 +1,66 @@
+@media (min-width: 992px) and (max-width: 1199px){
+    #banner .banner_slider .banner_cnt h1 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        color: #1D1D1D;
+        transition-delay: 0.4s;
+    }
+
+    #banner .slick-dots {
+        position: absolute;
+        bottom: 15%;
+        left: 28px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #banner .banner_slider {
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+    #banner .banner_slider .row {
+        height: 500px;
+    }
+    #banner .banner_slider .banner_cnt h1 {
+        
+        font-size: 40px;
+        line-height: 40px;
+       
+    }
+    .button {
+       padding: 15px 20px;
+       font-size: 16px;
+    }
+    #banner .slick-dots {
+       left: 28px;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px){
+    #banner .banner_slider {
+        height: 300px;
+       
+    }
+    #banner .banner_slider .row {
+        height: 300px;
+    }
+    #banner .banner_cnt {
+        width: 100%;
+    }
+    #banner .banner_slider .banner_cnt h1 {
+        font-size: 30px;
+        line-height: 30px;
+        
+    }
+    #banner .banner_slider .button {
+        
+        padding: 10px 10px;
+       }
+    #banner .slick-dots {
+         bottom: 0;
+        }
+        #banner .slick-dots button{
+            transform: scale(0.5);
+        }
+}
